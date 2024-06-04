@@ -9,6 +9,7 @@ public class Application {
 	public static void main(String[] args) {
 
 		int data =10;
+		String name="change in project source code";
 		SpringApplication.run(Application.class, args);
 	}
 
