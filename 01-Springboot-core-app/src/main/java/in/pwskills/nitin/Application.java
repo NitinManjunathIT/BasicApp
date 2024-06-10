@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
 	public static void main(String[] args) {
+		//bug no 130
+		System.out.println("Working on high priority task...");
 
 		int data =10;
 		String name="change in project source code";
